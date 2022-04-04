@@ -95,7 +95,7 @@ const changeState = () => {
   }
 };
 
-const click = (element) => {
+const confirmRating = (element) => {
   console.log("clicked", element.innerHTML);
   for (let i = 0; i < numbers.length; i++) {
     numbers[i].style.backgroundColor = "hsl(216, 12%, 8%)";
@@ -106,7 +106,7 @@ const click = (element) => {
 };
 
 for (let i = 0; i < numbers.length; i++) {
-  numbers[i].addEventListener("click", () => click(numbers[i]));
+  numbers[i].addEventListener("click", () => confirmRating(numbers[i]));
 }
 
 submitButton[0].addEventListener("click", changeState);
