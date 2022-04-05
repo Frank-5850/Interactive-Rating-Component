@@ -1,7 +1,6 @@
 import "./App.css";
 import RatingCard from "./Components/RatingCard";
 import ThankYouCard from "./Components/ThankYouCard";
-// import { useState } from "react";
 import CustomHook from "./CustomHook";
 
 function App() {

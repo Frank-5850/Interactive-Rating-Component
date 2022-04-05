@@ -1,5 +1,4 @@
 import React from "react";
-import CustomHook from "../CustomHook";
 
 const RatingCard = ({
   ratings,
